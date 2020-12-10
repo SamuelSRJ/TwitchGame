@@ -12,6 +12,7 @@ namespace AplWfa_Twitch
 {
     public partial class frmJogo : Form
     {
+        // Projeto adicionado ao GitHub
         // *******************  V A R I A V E I S *******************
         int escolhaStreamer = 0;
         int scoreS = 0;
