@@ -1,0 +1,30 @@
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\bin\Debug\AplWfa_Twitch.exe.config
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\bin\Debug\AplWfa_Twitch.exe
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\bin\Debug\AplWfa_Twitch.pdb
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.csprojAssemblyReference.cache
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmMenu.resources
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.Properties.Resources.resources
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.csproj.GenerateResource.cache
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.exe
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.pdb
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmAviso.resources
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmOpcoes.resources
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmJogo.resources
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmResultado.resources
+C:\Users\usuario\Music\Samuel Jr\Projeto Jogo\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmResultadoFinal.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\bin\Debug\AplWfa_Twitch.exe.config
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\bin\Debug\AplWfa_Twitch.exe
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\bin\Debug\AplWfa_Twitch.pdb
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.csprojAssemblyReference.cache
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmAviso.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmJogo.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmMenu.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmOpcoes.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmResultado.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.frmResultadoFinal.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.Properties.Resources.resources
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.csproj.GenerateResource.cache
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.exe
+C:\Users\usuario\Music\Samuel Jr\Projetos\Projeto GitHub CSharp\TwitchGame\SolWfa_Twitch\AplWfa_Twitch\obj\Debug\AplWfa_Twitch.pdb

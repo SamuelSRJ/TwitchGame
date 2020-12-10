@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FB96112-8958-4BAC-910D-103491E0743B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AplWfa_Twitch</RootNamespace>
+    <AssemblyName>AplWfa_Twitch</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJogo.Designer.cs">
+      <DependentUpon>frmJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAviso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAviso.Designer.cs">
+      <DependentUpon>frmAviso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpcoes.Designer.cs">
+      <DependentUpon>frmOpcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultado.Designer.cs">
+      <DependentUpon>frmResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultadoFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultadoFinal.Designer.cs">
+      <DependentUpon>frmResultadoFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAviso.resx">
+      <DependentUpon>frmAviso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJogo.resx">
+      <DependentUpon>frmJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpcoes.resx">
+      <DependentUpon>frmOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultado.resx">
+      <DependentUpon>frmResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultadoFinal.resx">
+      <DependentUpon>frmResultadoFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TituloMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnJogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnJogarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSettingsHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSairHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MensagemAviso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSimHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNaoHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TituloOpcoes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblTwitchid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblVolume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblIdioma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnBrazilOFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnBrazilON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnUsaOFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnUsaON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSpainOFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSpainON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRestaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRestaurarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAplicar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAplicarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnVoltarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnVoltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblTituloGameplay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPedra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPapel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnTesoura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPapelHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPapelSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPedraHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPedraSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnTesouraHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnTesouraSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblPapel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblPedra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblTesoura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblChatN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblChatS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnContinuar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcblblTituloRes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbPapelDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbPapelWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbPedraDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbPedraLose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbPedraWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbTesouraDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbTesouraLose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbTesouraWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcbPapelLose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcblblStreamer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcblblChat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcblblVS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVS9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblContVC9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblTituloResFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblChatWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lblStreamerWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMenuPrincipal.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
